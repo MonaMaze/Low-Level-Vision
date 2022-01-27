@@ -174,7 +174,7 @@ btn1.pack(side='top', fill='both', padx=10, pady=10)
 left = ttk.LabelFrame(root)
 left.pack(side='left', padx=10, pady=10)
 # Radio Buttons for Red , Green , Blue Color Tracking or None 
-label_color =ttk. LabelFrame(left, text='Color tracking', width=250)
+label_color = ttk.LabelFrame(left, text='Color tracking', width=250)
 label_color.pack(side='top', padx=10, pady=10)
 color = StringVar(value='0 0 0 255 255 255')
 color1 = ttk.Radiobutton(label_color, text='Red', variable=color, value='0 50 50 20 255 255')
